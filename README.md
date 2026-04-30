@@ -1,6 +1,6 @@
 # Node.js Practice Project about Blogs
 
-Це навчальний проєкт з використанням Node.js, Express та EJS.
+Це навчальний проєкт з використанням Node.js, Express, MongoDB та EJS.
 
 1. Клонуйте репозиторій:
    `git clone https://github.com/pudgynator/blog-website.git`
