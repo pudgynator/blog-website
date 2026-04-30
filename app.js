@@ -1,11 +1,15 @@
 const express = require("express");
 const app = express();
+require('dotenv').config();
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 const Blog = require("./models/blog");
 const { render } = require("ejs");
 
-const dbiURI = 'mongodb+srv://mdobrydnyk_db_user:qZ5hy8p3SsBtYnVV@node-cluster.vjwiw9g.mongodb.net/node-db?retryWrites=true&w=majority&appName=node-db';
+
+
+const dbiURI = process.env.MONGO_URI;
+
 
 mongoose.connect(dbiURI)
     .then((result) => app.listen(3000, () => {
