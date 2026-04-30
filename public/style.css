@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family:'Times New Roman', Times, serif, Helvetica, sans-serif;
+    background-color: #f4f1f7;
+    color: rgb(72, 53, 29);
+}
+
+.site{
+    text-transform: uppercase;
+}
+
+.content {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 24px;
+    gap: 50px;
+}
+
+li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgb(208, 183, 239);
+    margin-bottom: 50px;
+}
+
+.blogs {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogs a {
+    display: block;
+    margin: 40px 0;
+    padding: 20px 0 20px 20px;
+    border-left: 6px solid rgb(154, 127, 188);;
+}
+
+.blogs a:hover {
+    background-color: rgb(154, 127, 188);
+    color: white;
+}
+
+.blogs-title, .about-title {
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.blogs .title {
+    margin-bottom: 10px;
+}
+
+.about p {
+    margin-bottom: 20px;
+}
+
+.create-blog form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.create-blog label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.create-blog input[type="text"] {
+    font-size: 18px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.create-blog textarea {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    resize: vertical;
+}
+
+.create-blog button {
+    align-self: center;
+    font-size: 18px;
+    width: 200px;
+    padding: 10px;
+    background-color: #9a66ba;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+.create-blog button:hover {
+    cursor: pointer;
+    background-color: #7a4e8c;
+}
+
+.details {
+    position: relative;
+}
+
+.delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #9a66ba;
+    color: white;
+}
+
+.delete:hover {
+    cursor: pointer;
+    background-color: #7a4e8c;
+}
