@@ -8,12 +8,13 @@ const { render } = require("ejs");
 const blogRoutes = require("./routes/blogRoutes");
 
 const dbiURI = process.env.MONGO_URI;
+const port = process.env.PORT || 3000;
 
 mongoose
   .connect(dbiURI)
   .then((result) =>
     app.listen(3000, () => {
-      console.log("Server is listening on port 3000");
+      console.log(`Server is listening on port ${port}`);
     })
   )
   .catch((err) => console.log(err));
