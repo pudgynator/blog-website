@@ -55,7 +55,7 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 30px;
-    background-color: rgb(208, 183, 239);
+    background-color: #d1b8ef;
     margin-bottom: 50px;
 }
 
@@ -68,12 +68,12 @@ li {
     display: block;
     margin: 40px 0;
     padding: 20px 0 20px 20px;
-    border-left: 6px solid rgb(154, 127, 188);;
+    border-left: 6px solid #9a7fbc;;
 }
 
 .blogs a:hover {
-    background-color: rgb(154, 127, 188);
-    color: white;
+    background-color: #9a7fbc;
+    color: #ffffff;
 }
 
 .blogs-title, .about-title {
@@ -143,15 +143,10 @@ li {
     position: absolute;
     top: 0;
     right: 0;
-    border-radius: 50px;
-    border: none;
-    font-size: 18px;
-    padding: 10px 20px;
-    background-color: #9a66ba;
-    color: white;
+    border-radius: 25%;
 }
 
 .delete:hover {
     cursor: pointer;
-    background-color: #7a4e8c;
+    background-color: #d1b8ef;
 }
